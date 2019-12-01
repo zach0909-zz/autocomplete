@@ -20,7 +20,7 @@
 <input id="pac-input" class="controls" type="text" placeholder="Type your place here">
 <div id="map-canvas"></div>
 <script src="initializeMap.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0ivqOraMRakV65uOVAw5K_XVQ4OMpKG8&callback=initialize&libraries=places"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=INSERT_API_KEY_HERE&callback=initialize&libraries=places"></script>
 <script>
     var input = document.getElementById('pac-input');
     map.controls[google.maps.ControlPosition.TOP_LEFT].push(input); //push input into map
